@@ -64,10 +64,10 @@
                 default_layer {
                         display-name = "base"; // 0
                         bindings = <
-   &kp Q                     &kp W                     &kp E               &kp R                  &kp T                       &kp Y             &kp U                    &kp I            &kp O                      &kp P
-   &mod_slow LEFT_CONTROL A  &mod_slow LEFT_COMMAND S  &layer_fast 2 D     &mod_fast LEFT_SHIFT F &kp G                       &kp H             &mod_fast RIGHT_SHIFT J  &layer_fast 1 K  &mod_slow RIGHT_COMMAND L  &mod_slow RIGHT_CONTROL SEMICOLON
-   &kp Z                     &kp X                     &kp C               &kp V                  &kp B                       &kp N             &kp M                    &kp COMMA        &kp DOT                    &kp FSLH
-                                                       &layer_slow 4 TAB   &kp RET                &layer_slow 3 SPACE         &kp SPACE         &kp BSPC         &layer_slow 4 ESC
+   &kp Q                     &kp W                     &kp E               &kp R                  &kp T                       &kp Y             &kp U                    &kp I             &kp O                      &kp P
+   &mod_slow LEFT_CONTROL A  &mod_slow LEFT_COMMAND S  &layer_fast 2 D     &mod_fast LEFT_SHIFT F &kp G                       &kp H             &mod_fast RIGHT_SHIFT J  &layer_fast 1 K   &mod_slow RIGHT_COMMAND L  &mod_slow RIGHT_CONTROL SEMICOLON
+   &kp Z                     &kp X                     &kp C               &kp V                  &kp B                       &kp N             &kp M                    &kp COMMA         &kp DOT                    &kp FSLH
+                                                       &layer_slow 4 TAB   &layer_slow 3 SPACE    &kp RET                     &kp BSPC          &kp SPACE                &layer_slow 4 ESC
                         >;
                 };
                 layer_left_numbers {
