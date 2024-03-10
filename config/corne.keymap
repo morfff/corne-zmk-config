@@ -67,7 +67,43 @@
    &kp Q                     &kp W                     &kp E               &kp R                  &kp T                       &kp Y             &kp U                    &kp I            &kp O                      &kp P
    &mod_slow LEFT_CONTROL A  &mod_slow LEFT_COMMAND S  &layer_fast 2 D     &mod_fast LEFT_SHIFT F &kp G                       &kp H             &mod_fast RIGHT_SHIFT J  &layer_fast 1 K  &mod_slow RIGHT_COMMAND L  &mod_slow RIGHT_CONTROL SEMICOLON
    &kp Z                     &kp X                     &kp C               &kp V                  &kp B                       &kp N             &kp M                    &kp COMMA        &kp DOT                    &kp FSLH
-                                                       &layer_slow 0 TAB   &kp RET                &layer_slow 0 SPACE         &kp SPACE         &kp BSPC         &layer_slow 0 ESC
+                                                       &layer_slow 4 TAB   &kp RET                &layer_slow 3 SPACE         &kp SPACE         &kp BSPC         &layer_slow 4 ESC
+                        >;
+                };
+                layer_left_numbers {
+                        display-name = "left_numbers"; // 1
+                        bindings = <
+   &kp F1     &kp F2    &kp F3    &kp F4   &kp F5                       &none      &none       &none     &none      &none
+   &kp N1     &kp N2    &kp N3    &kp N4   &kp N5                       &none      &kp RSHFT   &none     &kp RGUI   &kp RCTRL
+   &kp GRAVE  &kp MINUS &kp LBKT  &kp RBKT &kp F11                      &none      &none       &none     &none      &none
+                        &none     &none    &none                        &none      &none       &none
+                        >;
+                };
+                layer_right_numbers {
+                        display-name = "right_numbers"; // 2
+                        bindings = <
+   &none      &none      &none     &none      &none                      &kp F6   &kp F7    &kp F8     &kp F9    &kp F10
+   &kp LCTRL  &kp LGUI   &none     &kp LSHFT  &none                      &kp N6   &kp N7    &kp N8     &kp N9    &kp N0
+   &none      &none      &none     &none      &none                      &kp F12  &kp SQT   &kp BSLH   &kp EQUAL &kp GRAVE
+                         &none     &none      &none                      &none    &none     &none
+                        >;
+                };
+                layer_navigation {
+                        display-name = "navigation"; // 3
+                        bindings = <
+   &none      &none      &none     &none      &none                      &none      &none     &none     &none      &none
+   &kp LCTRL  &kp LGUI   &none     &kp LSHFT  &none                      &none      &none     &none     &none      &none
+   &none      &none      &none     &none      &none                      &none      &kp LEFT  &kp DOWN  &kp UP     &kp RIGHT
+                         &none     &none      &none                      &none      &none     &none
+                        >;
+                };
+                layer_system {
+                        display-name = "system"; // 4
+                        bindings = <
+   &none      &none   &sys_reset     &bootloader     &none                       &none    &bootloader   &sys_reset     &none      &none
+   &bt_3      &bt_2   &bt_1          &bt_0           &none                       &none    &bt_0         &bt_1          &bt_2      &bt_3  
+   &none      &none   &bt BT_CLR_ALL &bt BT_CLR      &none                       &none    &bt BT_CLR    &bt BT_CLR_ALL &none      &none
+                      &none          &none           &none                       &none    &none         &none
                         >;
                 };
         };
