@@ -40,6 +40,7 @@
         // ==== Home Row Mods <section begins> =====
         // TODO: Consider using the fast config for the thumb so that the mouse and
         // and arrow layers are accessible faster.
+        // TODO: Try combos for ESC and TAB: Q+W for TAB and O+P for ESC.
 
         #define FAST_HOLDING_TIME 160
         #define SLOW_HOLDING_TIME 300
