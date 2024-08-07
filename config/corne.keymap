@@ -90,10 +90,10 @@
                 default_layer {
                         display-name = "base"; // 0
                         bindings = <
-   &kp Q  &kp W  &kp E &kp R &kp T                                     &kp Y             &kp U                    &kp I             &kp O                      &kp P
-   &kp A  &kp S  &kp D &kp F &kp G                                     &kp H             &kp J                    &kp K             &kp L                      &kp SEMICOLON
-   &kp Z  &kp X  &kp C &kp V &kp B                                     &kp N             &kp M                    &kp COMMA         &kp DOT                    &kp FSLH
-   &layer_slow 4 TAB  &layer_slow 5 SPACE  &layer_slow 3 RET           &kp BSPC          &layer_slow 6 SPACE      &layer_slow 4 ESC
+   &kp Q  &kp W  &kp E &kp R &kp T            &kp Y             &kp U                    &kp I             &kp O                      &kp P
+   &kp A  &kp S  &kp D &kp F &kp G            &kp H             &kp J                    &kp K             &kp L                      &kp SEMICOLON
+   &kp Z  &kp X  &kp C &kp V &kp B            &kp N             &kp M                    &kp COMMA         &kp DOT                    &kp FSLH
+   &mo 5  &layer_slow 3 SPACE  &kp RET        &kp BSPC          &kp SPACE                &mo 6
                         >;
                 };
                 layer_left_numbers {
@@ -101,7 +101,7 @@
                         bindings = <
    &kp F1     &kp F2    &kp F3    &kp F4   &kp F5                       &none      &none       &none     &none      &none
    &kp N1     &kp N2    &kp N3    &kp N4   &kp N5                       &none      &kp RSHFT   &none     &kp RGUI   &kp RCTRL
-   &kp GRAVE  &kp MINUS &kp LBKT  &kp RBKT &kp F11                      &none      &none       &none     &none      &none
+   &kp GRAVE  &kp MINUS &kp LBKT  &kp RBKT &kp TAB                      &none      &none       &none     &none      &none
                         &none     &none    &none                        &none      &none       &none
                         >;
                 };
@@ -110,7 +110,7 @@
                         bindings = <
    &none      &none      &none     &none      &none                      &kp F6   &kp F7    &kp F8     &kp F9    &kp F10
    &kp LCTRL  &kp LGUI   &none     &kp LSHFT  &none                      &kp N6   &kp N7    &kp N8     &kp N9    &kp N0
-   &none      &none      &none     &none      &none                      &kp F12  &kp SQT   &kp BSLH   &kp EQUAL &kp GRAVE
+   &none      &none      &none     &none      &none                      &kp ESC  &kp SQT   &kp BSLH   &kp EQUAL &kp GRAVE
                          &none     &none      &none                      &none    &none     &none
                         >;
                 };
