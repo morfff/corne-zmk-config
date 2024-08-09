@@ -38,7 +38,7 @@
 
     behaviors {
         // ==== Home Row Mods <section begins> =====
-        // TODO: Consider using the fast config for the thumb so that the mouse and
+        // TODO: Consider using the fast config for the thumb so that the mouse
         // and arrow layers are accessible faster.
 
         #define FAST_HOLDING_TIME 140
