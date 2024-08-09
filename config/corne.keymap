@@ -144,7 +144,7 @@
                 layer_right_modifiers {
                         display-name = "right_modifiers"; // 6
                         bindings = <
-   &trans &trans &trans &trans &trans      &none      &none      &none     &none      &none
+   &trans &trans &trans &trans &trans      &none      &none      &none     &none
    &trans &trans &trans &trans &trans      &none      &kp RSHFT  &mo 1     &kp RGUI   &kp RCTRL
    &trans &trans &trans &trans &trans      &none      &none      &none     &none      &none
                  &trans &trans &trans      &none      &none      &none
