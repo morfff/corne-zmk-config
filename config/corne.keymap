@@ -90,10 +90,10 @@
                 default_layer {
                         display-name = "base"; // 0
                         bindings = <
-   &kp Q  &kp W  &kp E &kp R &kp T                                     &kp Y             &kp U                    &kp I             &kp O                      &kp P
-   &kp A  &kp S  &kp D &kp F &kp G                                     &kp H             &kp J                    &kp K             &kp L                      &kp SEMICOLON
-   &kp Z  &kp X  &kp C &kp V &kp B                                     &kp N             &kp M                    &kp COMMA         &kp DOT                    &kp FSLH
-   &layer_slow 4 TAB  &layer_slow 5 SPACE  &layer_slow 3 RET           &kp BSPC          &layer_slow 6 SPACE      &layer_slow 4 ESC
+   &kp Q                     &kp W                     &kp E               &kp R                  &kp T                       &kp Y             &kp U                    &kp I             &kp O                      &kp P
+   &mod_slow LEFT_CONTROL A  &mod_slow LEFT_COMMAND S  &layer_fast 2 D     &mod_fast LEFT_SHIFT F &kp G                       &kp H             &mod_fast RIGHT_SHIFT J  &layer_fast 1 K   &mod_slow RIGHT_COMMAND L  &mod_slow RIGHT_CONTROL SEMICOLON
+   &kp Z                     &kp X                     &kp C               &kp V                  &kp B                       &kp N             &kp M                    &kp COMMA         &kp DOT                    &kp FSLH
+                                                       &layer_slow 4 TAB   &layer_slow 3 SPACE    &kp RET                     &kp BSPC          &kp SPACE                &layer_slow 4 ESC
                         >;
                 };
                 layer_left_numbers {
@@ -130,24 +130,6 @@
    &bt BT_SEL 4   &bt BT_SEL 3   &bt BT_SEL 2    &bt BT_SEL 1   &bt BT_SEL 0                &bt BT_SEL 0   &bt BT_SEL 1    &bt BT_SEL 2   &bt BT_SEL 3   &bt BT_SEL 4  
    &none          &none          &bt BT_CLR_ALL  &bt BT_CLR     &none                       &bt BT_CLR     &bt BT_CLR_ALL  &none          &none          &none
                                  &none           &none          &none                       &none          &none           &none
-                        >;
-                };
-                layer_left_modifiers {
-                        display-name = "left_modifiers"; // 5
-                        bindings = <
-   &none      &none      &none     &none      &none      &trans &trans &trans &trans &trans
-   &kp LCTRL  &kp LGUI   &mo 2     &kp LSHFT  &none      &trans &trans &trans &trans &trans
-   &none      &none      &none     &none      &none      &trans &trans &trans &trans &trans
-                         &none     &none      &none      &trans &trans &trans
-                        >;
-                };
-                layer_right_modifiers {
-                        display-name = "right_modifiers"; // 6
-                        bindings = <
-   &trans &trans &trans &trans &trans      &none      &none      &none     &none
-   &trans &trans &trans &trans &trans      &none      &kp RSHFT  &mo 1     &kp RGUI   &kp RCTRL
-   &trans &trans &trans &trans &trans      &none      &none      &none     &none      &none
-                 &trans &trans &trans      &none      &none      &none
                         >;
                 };
         };
